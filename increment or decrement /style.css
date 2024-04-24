@@ -1,0 +1,50 @@
+  body {
+    background-color: darkgrey
+  }
+
+  .box {
+    height: 150px;
+    width: 300px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 200px;
+    left: 25px;
+    box-shadow: 0px 0px 10000px rgba(75, 75, 171);
+    background-color: rgba(75, 118, 171)
+  }
+
+  #display {
+    position: relative;
+    left: 120px;
+    top: -39px;
+    font-size: 40px;
+    font-weight: bold;
+
+  }
+
+  button {
+    height: 40px;
+    width: 60px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-top: 20px;
+
+  }
+
+  #inc {
+    row-gap: 2rem;
+    box-shadow: 0px 0px 10px rgba(22, 201, 192);
+    background-color: orange;
+    color: white;
+  }
+
+  #dec {
+    row-gap: 2rem;
+    box-shadow: 0px 0px 10px rgba(22, 201, 192);
+    background-color: orange;
+    color: white;
+  }
